@@ -1,0 +1,303 @@
+@font-face {
+  font-family: 'pilar';
+  src:
+  url('./static/font/pilar.eot?54912974');
+  src:
+  url('./static/font/pilar.eot?54912974#iefix')
+  format('embedded-opentype'),
+  url('./static/font/pilar.woff2?54912974') format('woff2'),
+  url('./static/font/pilar.woff?54912974') format('woff'),
+  url('./static/font/pilar.ttf?54912974') format('truetype'),
+  url('./static/font/pilar.svg?54912974#pilar') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+}
+html,body {
+  height:
+  100%;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  text-align:
+  center;
+  background-color: #FFB54A;
+  color: #383838;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing:
+  grayscale;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+
+  -webkit-box-sizing:border-box;
+}
+a {
+  color: #383838;
+
+  text-decoration: none;
+}
+hr {
+  border-width: 0;
+}
+header {
+  display:
+  flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1% 0.5%;
+}
+header div
+{
+  width: 33.333%;
+  padding: 0.3vw 1vw;
+}
+header div a {
+  color: #383838;
+
+  font-family: "pilar";
+  cursor: pointer;
+  font-size: 18px;
+}
+.prev
+{
+  text-align: left;
+}
+.webring {
+  text-align: center;
+}
+.next
+{
+  text-align: right;
+}
+.header {
+  display: table-cell;
+  font-size: 7vw;
+
+  font-weight: 700;
+  vertical-align: top;
+}
+.tablehead {
+  display:table;
+
+  table-layout:fixed;
+  border-collapse: collapse;
+  width:100%;
+
+  height:12vw;
+}
+.table {
+  display: -webkit-box;
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width:100%;
+}
+.row {
+  display:
+  table-row;
+}
+.cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+  display: flex;
+  width: 33.33333%;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align:
+  center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+
+  align-items: center;
+  color: #383838 !important;
+  padding: 2vh;
+
+  font-size: 2vw;
+  text-transform: uppercase;
+  vertical-align: middle;
+
+  height: 18vw;
+  background: center center;
+  background-size: cover;
+}
+
+.cell a:hover {
+  text-decoration: underline;
+}
+.cell:hover a{
+  color:
+  #f0f0f0;
+  text-shadow: 0 0 3px #202020, 0 0 5px #202020;
+}
+.a
+{
+  background-color: #162D73;
+}
+.a a {
+  color: #DEDADF;
+}
+.b
+{
+  background-color: #DCDCDC;
+}
+.b a {
+  color: #162D73;
+}
+.c
+{
+  background-color: #E5B3BC;
+}
+.c a {
+  color: #F65853;
+}
+.d
+{
+  background-color: #115847;
+}
+.d a {
+  color: #E5B3BC;
+}
+.e
+{
+  background-color: #F65853;
+}
+.e a {
+  color: #383838;
+}
+
+.pomeranian:hover {
+  background-image: url('pomeranian.gif');
+}
+
+.gemstones:hover {
+  background-image: url('gemstones2.gif');
+}
+
+.honda:hover {
+  background-image: url('honda.gif');
+}
+.news:hover
+{
+  background-image: url('news.gif');
+}
+.average:hover
+{
+  background-image: url('average.gif');
+  background-size: 140%;
+}
+
+.better:hover {
+  background-image: url('better.gif');
+
+background-size: 120%}
+.machines:hover {
+  background-image:
+  url('machines.gif');
+}
+.celine:hover {
+  background-image:
+  url('celine.gif');
+}
+.aluminum:hover {
+  background-image:
+  url('aluminum.gif');
+}
+.garbage:hover {
+  background-image:
+  url('garbage.gif');
+}
+.trains:hover {
+  background-image:
+  url('trains.gif');
+}
+.airplanes:hover {
+  background-image:
+  url('airplanes.gif');
+}
+.crypto:hover {
+  background-image:
+  url('crypto2.gif');
+}
+.driving:hover {
+  background-image:
+  url('driving.gif');
+background-size: 320%}
+.words:hover
+{
+  background-image: url('words.gif');
+}
+.fire:hover
+{
+  background-image: url('schoolbus.gif');
+  background-size: 140%;
+}
+
+.cooking:hover {
+  background-image: url('cooking.gif');
+}
+
+.smiling:hover {
+  background-image: url('smiling.gif');
+}
+footer
+{
+  padding: 3vw 0 2vw 0;
+  font-size: 1.3vw;
+  text-transform: none;
+
+  line-height: 120%;
+}
+footer a {
+  text-decoration: underline;
+}
+@media
+screen and (max-width: 767px) {
+  header {
+    margin: 0.5vh 0 0 0;
+
+    padding: 2vh;
+  }
+  header div a {
+    font-size: 18px;
+  }
+  .header {
+
+    font-weight: 400;
+    vertical-align: center;
+    padding: 1vh 0 2vh 0;
+
+    margin-bottom: 2vh;
+  }
+  .tablehead {
+    height: 10%;
+  }
+  .cell {
+    min-height:
+    30vh;
+    width: 100%;
+    font-size: 5vw;
+    padding: 10% 2%;
+  }
+  footer
+  {
+    background-color: #FFB54A;
+    height: 6vh;
+    font-size: 1.5vh;
+    padding:
+    2vh;
+    line-height: 130%;
+  }
+}
+
