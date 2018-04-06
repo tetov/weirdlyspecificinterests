@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" .}}
+
+  <body>
+
+    {{partial "header.html" .}}
+
+    <div class="table">
+
+      {{ range $.Site.Data.content.interest }}
+	<div class="cell pomeranian a">
+	  <a target="_blank" href="https://www.youtube.com/{{ .youtubeURL }}/videos">{{ .desc }}</a>
+	</div>
+      {{ end }}
+
+    {{ partial "footer.html" .}}
+
+  </body>
+</html>
