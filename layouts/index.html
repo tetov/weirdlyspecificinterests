@@ -11,7 +11,7 @@
 
       {{ range $.Site.Data.content.interest }}
 	<div class="cell pomeranian a">
-	  <a target="_blank" href="https://www.youtube.com/{{ .youtubeURL }}/videos">{{ .desc }}</a>
+	  <a target="_blank" href="https://www.youtube.com/playlist?playnext=1&list={{ .playlistURL }}">{{ .desc }}</a>
 	</div>
       {{ end }}
 
