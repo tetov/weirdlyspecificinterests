@@ -10,9 +10,9 @@
     <div class="table">
 
       {{ range $.Site.Data.content.interest }}
-	<div class="cell pomeranian a">
-	  <a target="_blank" href="https://www.youtube.com/playlist?playnext=1&list={{ .playlistURL }}">{{ .desc }}</a>
-	</div>
+      <div class="cell c-color-1" id="{{ .playlistURL }}">
+              <a target="_blank" href="https://www.youtube.com/playlist?playnext=1&list={{ .playlistURL }}">{{ .desc }}</a>
+          </div>
       {{ end }}
 
     {{ partial "footer.html" .}}
